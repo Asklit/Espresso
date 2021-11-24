@@ -10,7 +10,7 @@ NAME_DATABASE = "coffee.sqlite"
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('ui_file.ui', self)
+        uic.loadUi('main.ui', self)
         self.fill_table_widget()
 
     def fill_table_widget(self):
